@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-image: url(./img/572134-pizza-4k-full.jpg);background-size: cover;" class="mb-[100px]">
+    <div class="Pizza pt-[20px] mx-auto w-[500px] h-[650px] bg-[#9999] border-yellow-600 runded mt-[100px]">
+        <h1 class="text-center py-[40px] text-[35px]">Pizza order</h1>
+        <div class="flex flex-col px-[100px] pb-[40px] mx-auto">
+            <input class="bg-[white]/50" type="text" placeholder="User name" id="user">
+            <input class="bg-[white]/50" type="tel" placeholder="Phone" id="phone">
+            <input class="bg-[white]/50" type="text" placeholder="User adress" id="adress">
+        </div>
+        <div class="flex place-items-center justify-center gap-[20px]">
+            <p>Dought thickness:</p>
+            <select class="bg-[transparent] rounded cursor-pointer" name="Pitsa_xajmi" id="">
+                Dought thicknes
+                <option class=" xajm1 bg-[transparent]" value="">Katta</option>
+                <option class=" xajm2 bg-[transparent]" value="">Ortacha</option>
+                <option class=" xajm3 bg-[transparent]" value="">Kichik</option>
+            </select>
+        </div>
+        <div class="text-center pt-[40px] text-xl">
+            Size:
+            <span
+                class=" mx-[15px] p-[20px] rounded-[50%] border-white  bg-white/50  hover:bg-white/80 ease-out duration-200 cursor-pointer ">25</span>
+            <span
+                class=" mx-[15px] p-[20px] rounded-[50%] border-white  bg-white/50  hover:bg-white/80 ease-out duration-200 cursor-pointer ">30</span>
+            <span
+                class=" mx-[15px] p-[20px] rounded-[50%] border-white  bg-white/50  hover:bg-white/80 ease-out duration-200 cursor-pointer ">35</span>
+        </div>
+        <div class="flex gap-[50px]">
+            <div class="pt-[40px]">
+                <span class="text-2xl">On Pizza</span>
+                <div class="inputs">
+                    <input class=" birinchi_qoshmcha cursor-pointer" type="checkbox">Tomato <br>
+                    <input class=" birinchi_qoshmcha cursor-pointer" type="checkbox">Turkey meat <br>
+                    <input class=" birinchi_qoshmcha cursor-pointer" type="checkbox">Oilve <br>
+                    <input class=" birinchi_qoshmcha cursor-pointer" type="checkbox">Pickled cucember <br>
+                    <input class=" birinchi_qoshmcha cursor-pointer" type="checkbox">Mushroom <br>
+                    <input class=" birinchi_qoshmcha cursor-pointer" type="checkbox">Horse meat <br>
+                </div>
+            </div>
+            <div class="w-[250px] pt-[40px] flex place-items-center gap-3">
+                <input class=" qoshmcha_add cursor-pointer" type="checkbox">Pepper
+                <input class=" qoshmcha_add cursor-pointer" type="checkbox">Sasuage
+                <button type="submit" id="btnOrder"
+                    class=" text-center bg-white/50 rounded px-[30px] py-[2px] hover:bg-white/100 ease-out duration-200">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
